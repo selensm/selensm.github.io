@@ -254,6 +254,10 @@ div.some {
     grid-column-end: 4;
 }
 
+a.some-link {
+    font-size: 1.2vw;
+}
+
 a.top {
     text-align: center;
     color: var(--text-dark);
@@ -396,6 +400,8 @@ div.project-card {
 
 .me {
     width: 45vw;
+    position: relative;
+    left: -5vw;
 }
 
 .about>section>article.grid-container>div.background>svg.blob-left {
