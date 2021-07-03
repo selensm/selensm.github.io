@@ -435,12 +435,17 @@ div.project-card {
 
 .statera-case,
 .bakery-case,
+.ba-case,
 .caseimg {
-    width: 30vw;
+    width: 35vw;
 }
 
 .caseimg-bakery {
     width: 22vw;
+}
+
+.caseimg-ba {
+    width: 35vw;
 }
 
 .caseimg-ccw {
@@ -451,9 +456,15 @@ div.project-card {
     width: 35vw;
 }
 
+.ba-case {
+    position: relative;
+    top: 5vw;
+}
+
 .statera-case,
 .ccw-case,
 .bakery-case,
+.ba-case
 .caseimg {
     position: relative;
     top: 4vw;
@@ -466,7 +477,7 @@ div.project-card {
 }
 
 .ccw-mockup {
-    right: 0vw;
+    left: 0vw;
     top: -2vw;
     width: 40vw;
 }
@@ -476,14 +487,21 @@ div.project-card {
     width: 40vw;
 }
 
+.ba-mockup {
+    right: -3vw;
+    top: -1vw;
+    width: 45vw;
+}
+
 .bakery-mockup {
     left: 1vw;
-    top:1vw;
+    top:0;
     width: 35vw;
 }
 
 .statera-mockup,
 .ccw-mockup,
+.ba-mockup,
 .bakery-mockup,
 .meridian-mockup {
     position: absolute;
@@ -746,6 +764,7 @@ div.project-card {
     .statera-mockup,
     .ccw-mockup,
     .bakery-mockup,
+    .ba-mockup,
     .meridian-mockup {
         z-index: -10;
     }
@@ -757,13 +776,19 @@ div.project-card {
     }
 
     .ccw-mockup {
-        right: -7.5vw;
+        left: -7.5vw;
         top: 4vw;
         width: 47vw;
     }
 
     .bakery-mockup {
         left: -6vw;
+        top: 6vw;
+        width: 42vw;
+    }
+
+    .ba-mockup {
+        right: -6vw;
         top: 6vw;
         width: 42vw;
     }
@@ -785,6 +810,7 @@ div.project-card {
     .statera-case,
     .bakery-case,
     .ccw-case,
+    .ba-case,
     .meridian-case,
     .caseimg {
         width: 85vw;
