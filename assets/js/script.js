@@ -2,17 +2,14 @@ let navBar = document.querySelector("#nav");
 
 window.onscroll = function () {
     if (window.pageYOffset >= 50) {
-        navBar.style.top = "0vw";
-        navBar.style.background = "#ffffff";
-        navBar.style.height = "min-width";
-        navBar.style.boxShadow = "#00000025 1px 1px 10px";
+        article.style.position = "relative";
+        article.style.top = "0vw";
+        article.style.opacity = "0"
     } 
     
     if (window.pageYOffset <= 50) {
-        navBar.style.top = "2vw";
-        navBar.style.background = "";
-        navBar.style.height = "";
-        navBar.style.boxShadow = "";
+        article.style.top = "2vw";
+        article.style.opacity = "1"
     }
 }
 
