@@ -401,8 +401,7 @@ div.project-card {
 .me {
     width: 35vw;
     position: relative;
-    left: -5vw;
-    top: 7vw;
+    top: 3vw;
 }
 
 .about>section>article.grid-container>div.background>svg.blob-left {
