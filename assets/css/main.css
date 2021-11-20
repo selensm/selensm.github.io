@@ -438,7 +438,11 @@ div.project-card {
     grid-column-end: 4;
 }
 
-.statera-case,
+.statera-case {
+    width: 25vw;
+    left: 5vw;
+}
+
 .bakery-case,
 .ba-case,
 .caseimg {
@@ -454,7 +458,14 @@ div.project-card {
 }
 
 .caseimg-ccw {
-    width: 40vw;
+    width: 36vw;
+    top: 10vw !important;
+}
+
+.statera-tasks {
+    width: 55vw;
+    left: -12vw;
+    top: -7vw;
 }
 
 .ccw-case {
@@ -484,15 +495,15 @@ div.project-card {
 }
 
 .statera-mockup {
-    left: 5vw;
-    top: -3vw;
-    width: 25vw;
+    left: 0vw;
+    top: -8vw;
+    width: 45vw;
 }
 
 .ccw-mockup {
-    left: 0vw;
+    left: 3vw;
     top: -2vw;
-    width: 40vw;
+    width: 31vw;
 }
 
 .meridian-mockup {
@@ -501,9 +512,9 @@ div.project-card {
 }
 
 .ba-mockup {
-    right: -3vw;
-    top: -1vw;
-    width: 45vw;
+    right: 5vw;
+    top: -2vw;
+    width: 33vw;
 }
 
 .bakery-mockup {
