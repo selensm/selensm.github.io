@@ -443,8 +443,14 @@ div.project-card {
     left: 5vw;
 }
 
+.teamup-case {
+    width: 20vw;
+    left: 10vw;
+}
+
 .bakery-case,
 .ba-case,
+.teamup-process,
 .caseimg {
     width: 35vw;
 }
@@ -470,6 +476,7 @@ div.project-card {
 
 .ccw-case {
     width: 35vw;
+    top: 2.5vw;
 }
 
 .ba-case {
@@ -481,34 +488,37 @@ div.project-card {
     top: 5vw!important;
 }
 
+.teamup-value {
+    width: 47vw;
+    left: -5vw;
+}
+
 .statera-case,
 .ccw-case,
 .bakery-case,
+.teamup-case,
 .caseimg {
     position: relative;
-    top: 4vw;
 }
 
-.ba-case {
+.ba-case,
+.teamup-process,
+.teamup-value {
     position: relative;
     top: 12vw;
 }
 
-.statera-mockup {
+.statera-mockup,
+.teamup-mockup {
     left: 0vw;
     top: -8vw;
     width: 45vw;
 }
 
 .ccw-mockup {
-    left: 3vw;
+    right: 5vw;
     top: -2vw;
     width: 31vw;
-}
-
-.meridian-mockup {
-    left: 5vw;
-    width: 40vw;
 }
 
 .ba-mockup {
@@ -517,17 +527,10 @@ div.project-card {
     width: 33vw;
 }
 
-.bakery-mockup {
-    left: 1vw;
-    top:0;
-    width: 35vw;
-}
-
 .statera-mockup,
 .ccw-mockup,
 .ba-mockup,
-.bakery-mockup,
-.meridian-mockup {
+.teamup-mockup {
     position: absolute;
 }
 
@@ -787,9 +790,9 @@ div.project-card {
 
     .statera-mockup,
     .ccw-mockup,
-    .bakery-mockup,
+    ,
     .ba-mockup,
-    .meridian-mockup {
+     {
         z-index: -10;
     }
 
@@ -805,7 +808,7 @@ div.project-card {
         width: 47vw;
     }
 
-    .bakery-mockup {
+     {
         left: -6vw;
         top: 6vw;
         width: 42vw;
